@@ -91,12 +91,7 @@ function App() {
 
     const signer = await provider.getSigner()
 
-    let valueInWei;  
-    if (owner === account) {
-      valueInWei = ethers.utils.parseEther("0");      
-    } else {
-      valueInWei = ethers.utils.parseEther("7");  
-    }
+    const valueInWei = ethers.utils.parseEther("0");
 
     try {
       const transaction = await tokenMaster.connect(signer).createNFT(uri, { value: valueInWei});

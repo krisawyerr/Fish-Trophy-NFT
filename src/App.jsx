@@ -142,7 +142,7 @@ function App() {
         <div className="slideshow">
           {slides.map((slide, index) => (
             <div key={index} className={index === currentSlide ? 'slide active' : 'slide'}>
-              <img src={slide} alt={`Slide ${index}`} height={500} width={500}/>
+              <img src={slide} alt={`Slide ${index}`}/>
             </div>
           ))}
         </div>

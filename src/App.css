@@ -65,6 +65,7 @@
   width: 500px;
   height: max-content;
   padding: 25px;
+  margin: 25px;
   border-radius: 15px;
   color: black;
   font-weight: 700;
@@ -92,4 +93,29 @@ input {
 
 .mintError {
   color: red;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+  margin: 25px;
+}
+
+@media screen and (max-width: 1167px) {
+  #root {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .slideshow {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  img {
+    height: auto;
+    width: calc(100vw - 50px);
+  }
 }

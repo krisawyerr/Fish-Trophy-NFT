@@ -79,9 +79,9 @@ const Mint = () => {
 
     let folderAndDomain
     if (parseInt(nftNumber) >= 20023) {
-      folderAndDomain = ['QmY49Fn34irGr4AhN8SFpiBKYejqUqQPabpFQQb5YpLE8W', 'aquamarine-hidden-gopher-338']
+      folderAndDomain = ['QmWf8653Eyy6Cnmd68gC8AkNkqQLBLpMG9nXMFPn6Y3zxp', 'aquamarine-hidden-gopher-338']
     } else {
-      folderAndDomain = ['QmUB8WHqStSDW21m6FUfndcTLMmsfkwSAgE3oGZoMK8B3Z', 'copper-kind-coyote-634']
+      folderAndDomain = ['QmWc837sivbPs2122BeyuzR8tbwodzn4fBQqhnQYcW1U3E', 'copper-kind-coyote-634']
     }
 
     setToggle(false)
